@@ -18,7 +18,7 @@
 
 <div align=center><img  src="https://github.com/CarryChang/Real_Time_DataMining_Sortware/blob/master/pic/best_comment_analysis.png"></div>
 
-> 3.   搭UGC主题情感分析：环境
+> 3.   对提取后的民宿主题进行UGC主题情感分析：如环境
 
 <div align=center><img  src="https://github.com/CarryChang/Real_Time_DataMining_Sortware/blob/master/pic/environment_analysis.png"></div>
 
