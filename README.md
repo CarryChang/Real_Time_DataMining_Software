@@ -2,7 +2,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 ###  Real_Time_DataMining_Sortware
-#### 一款能实时进行文本挖掘的软件，包含数据的实时采集/数据清洗/结构化保存/UGC数据主题提取/情感分析/后结构化可视化等技术的综合性演示demo。基于在线民宿UGC数据的意见挖掘项目，包含数据挖掘和NLP相关的处理，负责数据采集、整句切分、主题抽取、情感分析等任务。主要克服用户打分和评论不一致，实时对携程和美团在线民宿的满意度进行评测以及对额外数据进行可视化的综合性工具，多维度的对在线UGC进行数据挖掘并可视化，对比顾客直接打分的结果来看，运用机器学习的情感分析方法更能挖掘到详细的顾客意见和对应的合理评分。
+#### 一款能实时进行文本挖掘的软件，运用本软件无需进行大量的手动翻页操作，输入对应的店铺链接即可对民宿进行分析包含接结构化数据的可视化和非结构化UGC的情感分析，包含数据的实时采集/数据清洗/结构化保存/UGC数据主题提取/情感分析/后结构化可视化等技术的综合性演示demo。基于在线民宿UGC数据的意见挖掘项目，包含数据挖掘和NLP相关的处理，负责数据采集、整句切分、主题抽取、情感分析等任务。主要克服用户打分和评论不一致，实时对携程和美团在线民宿的满意度进行评测以及对额外数据进行可视化的综合性工具，多维度的对在线UGC进行数据挖掘并可视化，对比顾客直接打分的结果来看，运用机器学习的情感分析方法更能挖掘到详细的顾客意见和对应的合理评分。
 #####  直接运行Python3 RealTime_UGC_Analysis_GUI.py 即可打开本软件的GUI界面，缺失的库按照提示进行安装即可。
 <div align=center><img  src="https://github.com/CarryChang/Real_Time_DataMining_Sortware/blob/master/pic/GUI_main.png"></div>
 
@@ -33,9 +33,12 @@
 
 <div align=center><img  src="https://github.com/CarryChang/Real_Time_DataMining_Sortware/blob/master/pic/total_score.png"></div>
 
-> 7.   对应店铺的第二次以上的预定情况
+> 7.   分析该民宿第二次以上的预定情况  
 
 <div align=center><img  src="https://github.com/CarryChang/Real_Time_DataMining_Sortware/blob/master/pic/rebook.png"></div>
 
+> 8.   该民宿在不同月份的住宿情况  
+
+<div align=center><img  src="https://github.com/CarryChang/Real_Time_DataMining_Sortware/blob/master/pic/time_line.png"></div>
 
 #### 本软件包含了自己对NLP技术落地的一些浅显实践，针对整句UGC中包含的多主题问题，使用基于词性标注的标点符号切分，将整句切分为多个分句子，然后使用主题字典1的方式对主题进行分类，工作包含数据的实时采集/数据清洗/结构化保存/UGC数据主题提取/情感分析/后结构化可视化等技术的综合性演示demo，对比顾客直接打分的结果来看，运用机器学习的情感分析方法更能挖掘到详细的顾客意见和对应的合理评分。
