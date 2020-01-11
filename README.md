@@ -37,7 +37,7 @@
 
 <div align=center><img  src="https://github.com/CarryChang/Real_Time_DataMining_Sortware/blob/master/pic/rebook.png"></div>
 
-> 8.   该民宿在不同月份的住宿情况  
+> 8.   通过数据清洗和结构化展示该民宿在不同月份的住宿情况  
 
 <div align=center><img  src="https://github.com/CarryChang/Real_Time_DataMining_Sortware/blob/master/pic/time_line.png"></div>
 
